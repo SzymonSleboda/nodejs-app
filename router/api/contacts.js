@@ -8,7 +8,7 @@ const {
   removeContact,
   addContact,
   updateContact,
-} = require("../../models-hw02/contacts");
+} = require("../../models/contacts");
 
 router.get("/", async (req, res, next) => {
   const contacts = await listContacts();
